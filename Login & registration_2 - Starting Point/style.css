@@ -81,7 +81,7 @@ body {
   background: rgba(255, 255, 255, 0.7);
 }
 
-.btn.btn.white-btn:hover {
+.btn.white-btn:hover {
   background: rgba(255, 255, 255, 0.5)
 }
 
@@ -95,7 +95,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 512px;
-  height: 420px;
+  height: 520px; /* Increased height */
   overflow: hidden;
   z-index: 2;
 }
@@ -111,7 +111,7 @@ body {
 
 .register-container {
   position: absolute;
-  right: -520px;
+  left: 4px;
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -139,9 +139,9 @@ header {
   padding: 10px 0 30px 0;
 }
 
-.two-forms {
-  display: flex;
-  gap: 10px;
+.input-box {
+  position: relative;
+  margin: 10px 0;
 }
 
 .input-field {
@@ -166,8 +166,8 @@ header {
 }
 
 .input-box i {
-  position: relative;
-  top: -35px;
+  position: absolute;
+  top: 15px;
   left: 17px;
   color: #fff;
 }
@@ -204,12 +204,17 @@ header {
   gap: 5px;
 }
 
-.two label a {
+.two-col .two {
+  display: flex;
+  gap: 5px;
+}
+
+.two-col .two a {
   text-decoration: none;
   color: #fff;
 }
 
-.two label a:hover {
+.two-col .two a:hover {
   text-decoration: underline;
 }
 

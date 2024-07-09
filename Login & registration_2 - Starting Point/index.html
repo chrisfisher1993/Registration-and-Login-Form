@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Ludiflex | Login & Registration</title>
@@ -32,9 +31,7 @@
             </div>
         </nav>
 
-        <!-- Form Box -->
         <div class="form-box">
-            <!-- Login Form -->
             <div class="login-container" id="login">
                 <div class="top">
                     <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
@@ -62,14 +59,17 @@
                 </div>
             </div>
 
-            <!-- Registration Form -->
             <div class="register-container" id="register">
                 <div class="top">
                     <span>Already have an account? <a href="#" onclick="login()">Sign In</a></span>
                     <header>Register</header>
                 </div>
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Username">
+                    <input type="text" class="input-field" placeholder="Firstname">
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Lastname">
                     <i class="bx bx-user"></i>
                 </div>
                 <div class="input-box">
@@ -78,10 +78,6 @@
                 </div>
                 <div class="input-box">
                     <input type="password" class="input-field" placeholder="Password">
-                    <i class="bx bx-lock-alt"></i>
-                </div>
-                <div class="input-box">
-                    <input type="password" class="input-field" placeholder="Confirm Password">
                     <i class="bx bx-lock-alt"></i>
                 </div>
                 <div class="input-box">
@@ -128,6 +124,13 @@
             loginBtn.className = "btn";
             registerBtn.className += " white-btn";
         }
+
+        // Initially hide the register form
+        window.onload = function() {
+            registerForm.style.display = "none";
+            loginForm.style.display = "block";
+        }
     </script>
 </body>
 </html>
+
