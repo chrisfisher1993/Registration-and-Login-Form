@@ -31,7 +31,12 @@ User registration with username and password
 User login with username and password
 Responsive design using CSS
 ## Screenshots
-Registration Form
+
+### Registration Form
+![Registration Form](images/registrationimage.png)
+
+### Login Form
+![Login Form](images/loginimage.png)
 
 Login Form
 
