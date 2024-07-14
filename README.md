@@ -35,7 +35,7 @@ Responsive design using CSS
 ## Screenshots
 
 ### Registration Form
-![Registration Form](images/registrationimage.png)
+![Registration Form](images/registrationimage)
 
 ### Login Form
 ![Login Form](images/loginimage.png)
