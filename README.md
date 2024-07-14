@@ -26,10 +26,12 @@ Login:
 
 Enter your registered username and password.
 Click the "Login" button to log in to your account.
+
 ## Features
 User registration with username and password
 User login with username and password
 Responsive design using CSS
+
 ## Screenshots
 
 ### Registration Form
@@ -37,8 +39,6 @@ Responsive design using CSS
 
 ### Login Form
 ![Login Form](images/loginimage.png)
-
-Login Form
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
